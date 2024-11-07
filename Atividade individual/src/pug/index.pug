@@ -1,0 +1,49 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Business Casual - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css
+
+    body
+
+        include includes/header
+
+        include includes/navbar
+
+        section.page-section.clearfix
+            .container
+                .intro
+                    img.intro-img.img-fluid.mb-3.mb-lg-0.rounded(src='assets/img/intro.jpg', alt='...')
+                    .intro-text.left-0.text-center.bg-faded.p-5.rounded
+                        h2.section-heading.mb-4
+                            span.section-heading-upper Fresh Coffee
+                            span.section-heading-lower Worth Drinking
+                        p.mb-3
+                            | Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+                        .intro-button.mx-auto
+                            a.btn.btn-primary.btn-xl(href='#!') Visit Us Today!
+
+        section.page-section.cta
+            .container
+                .row
+                    .col-xl-9.mx-auto
+                        .cta-inner.bg-faded.text-center.rounded
+                            h2.section-heading.mb-4
+                                span.section-heading-upper Our Promise
+                                span.section-heading-lower To You
+                            p.mb-0
+                                | When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!
+
+        include includes/footer
+
+        include includes/scripts
